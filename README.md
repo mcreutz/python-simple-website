@@ -53,3 +53,6 @@ This Repo should help you to get a simple Python website setup using the Flask f
   - Python: [W3Schools](https://www.w3schools.com/python/)
   - Flask: [Official Docs](https://flask.palletsprojects.com/en/1.1.x/)
 
+## About Page
+- The project now includes an 'About' page.
+- You can access it by navigating to http://127.0.0.1:4949/about or http://localhost:4949/about.
