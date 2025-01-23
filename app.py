@@ -18,6 +18,9 @@ def account():
             usr = "<User Not Defined>"
     return render_template("account.html",username=usr) #rendering our account.html contained within /templates
 
+@app.route("/about-me") #defining the route for the about-me() function
+def about_me():
+    return render_template("about-me.html") #rendering our about-me.html contained within /templates
 
 
 if __name__ == "__main__": #checking if __name__'s value is '__main__'. __name__ is an python environment variable who's value will always be '__main__' till this is the first instatnce of app.py running
